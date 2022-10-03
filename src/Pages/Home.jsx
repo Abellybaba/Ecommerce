@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Navbar2 from '../components/shared/Navbar2'
 import Sponsor from '../components/Sponsor'
 import Category from '../components/Category'
+import Shopnow from '../components/Shopnow'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     <Hero/>
     <Sponsor />
     <Category />
+    <Shopnow />
     </div>
   )
 }
