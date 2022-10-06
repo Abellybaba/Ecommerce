@@ -4,31 +4,6 @@ import React from "react";
 const Navbar2 = () => {
     return (
         <div>
-            {/* <nav classNameName="navbar navbar-expand-xl navbar-light bg-light">
-                <div classNameName="container-fluid">
-                    <button classNameName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo1" aria-controls="navbarTogglerDemo1" aria-expanded="true" aria-label="Toggle navigation">
-                        <span classNameName="navbar-toggler-icon"></span>
-                    </button>
-                    <div classNameName="collapse navbar-collapse show" id="navbarTogglerDemo1">
-                        <a classNameName="navbar-brand" href="#">Hidden brand</a>
-                        <ul classNameName="navbar-nav me-auto mb-2 mb-xl-0">
-                            <li classNameName="nav-item">
-                                <a classNameName="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li classNameName="nav-item">
-                                <a classNameName="nav-link" href="#">Link</a>
-                            </li>
-                            <li classNameName="nav-item">
-                                <a classNameName="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form classNameName="d-flex">
-                            <input classNameName="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button classNameName="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav> */}
             <nav className="navbar navbar-expand-lg py-4" style={{backgroundColor: "#E8EDF5"}}>
                 <div className="container">
                     <a className="navbar-brand" href="#">
