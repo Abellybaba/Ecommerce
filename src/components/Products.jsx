@@ -22,7 +22,7 @@ const Products = () => {
                 <div className="col-12 col-md-6 col-lg-3 mb-6 mb-lg-5 ">
                 <div className="p-6 bg-light rounded">
                     <span className=" ms-2 mt-2 badge bg-transparent border border-2 border-info rounded-pill fw-bold text-info">NEW</span>
-                    <a className="d-block px-6 mt-6 mb-2 link-dark text-decoration-none" href="https://google.com/">
+                    <a className="d-block px-6 mt-6 mb-2 link-dark text-decoration-none" href="#">
                         <img className="mb-5 mx-auto w-100 img-fluid" style={{ height: "224px", objectFit: "contain" }} src={item.img} alt="" />
                         <h5 className="ms-2 mb-2">BRILE water filter</h5>
                         <p className="ms-2 h6 text-info">$29.89</p>

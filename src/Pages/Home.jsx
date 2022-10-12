@@ -7,6 +7,8 @@ import Sponsor from '../components/Sponsor'
 import Category from '../components/Category'
 import Shopnow from '../components/Shopnow'
 import Products from '../components/Products'
+import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 //import Product from '../components/Product'
 
 const Home = () => {
@@ -19,6 +21,8 @@ const Home = () => {
     <Category />
     <Shopnow />
     <Products/>
+    <Newsletter/>
+    <Footer/>
  
     </div>
   )
