@@ -6,8 +6,8 @@ const Category = () => {
     <section className="py-5">
     <div className="container">
       <div className="row">
-        <div className="col-12 col-lg-6 p-2 position-relative" style={{cursor: "pointer"}}>
-          <img className="img-fluid rounded d-block " src="https://images.pexels.com/photos/4530873/pexels-photo-4530873.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""/>
+        <div className="col-12 col-lg-6 p-2 position-relative img-fluid">
+          <img className="img-fluid rounded d-block"  src="https://images.pexels.com/photos/4530873/pexels-photo-4530873.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""/>
             <h3 className="position-absolute bottom-0 start-0 p-3">Men Clothings</h3>
         </div>
         <div className="col-12 col-lg-6 p-2 position-relative" style={{cursor: "pointer"}}>
