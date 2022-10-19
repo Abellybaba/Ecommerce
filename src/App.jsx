@@ -6,16 +6,15 @@ import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 
 import {
-  BrowserRouter,
   Routes,
   Route,
+  BrowserRouter,
 } from "react-router-dom";
 
 
 
 const App = () => {
-  return (
- 
+  return <div>
   <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -27,8 +26,8 @@ const App = () => {
         <Route path="register" element={<Register/>} />
         
       </Routes>
-    </BrowserRouter>
-  );
+      </BrowserRouter>
+  </div>;
 };
 
 export default App;
