@@ -26,17 +26,41 @@ export const sliderItems = [
     {
       id: 1,
       img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      title: "SHIRT",
+      cat:"women"
     },
     {
       id: 2,
       img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      title: "LOUNGEWEAR",
+      cat:"coat"
     },
     {
       id: 3,
       img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      title: "JACKETS",
+      cat:"jeans"
+    },
+  ];
+
+  export const smallCartegoryies = [
+    {
+      id: 1,
+      img: "https://images.pexels.com/photos/4210860/pexels-photo-4210860.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Jean",
+      cat:"jean"
+    },
+    {
+      id: 2,
+      img: "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Shoes",
+      cat:"shoes"
+    },
+    {
+      id: 3,
+      img: "https://images.pexels.com/photos/35188/child-childrens-baby-children-s.jpg?auto=compress&cs=tinysrgb&w=800",
+      title: "Kids",
+      cat:"kids"
     },
   ];
 
